@@ -1,16 +1,21 @@
-# Docs_Talk
+## DOC-TALK
+## RAG-Based Document Assistant
 
-Docs_Talk is a Streamlit-based application that allows users to chat with a conversational AI model trained on PDF documents. The chatbot extracts information from uploaded PDF files and answers user questions based on the provided context.
+**DOC-TALK** is a Streamlit-based application that enables users to chat with a conversational AI over the content of multiple PDF documents.
+It follows a **Retrieval-Augmented Generation (RAG)** approach, where relevant document context is retrieved and supplied to a large language model for grounded, context-aware responses.
+
+🔗 Live Demo: 
 <https://gmultichat.streamlit.app/>
 
 <https://github.com/kaifcoder/gemini_multipdf_chat/assets/57701861/f6a841af-a92d-4e54-a4fd-4a52117e17f6>
 
 ## Features
 
-- **PDF Upload:** Users can upload multiple PDF files.
-- **Text Extraction:** Extracts text from uploaded PDF files.
-- **Conversational AI:** Uses the Gemini conversational AI model to answer user questions.
-- **Chat Interface:** Provides a chat interface to interact with the chatbot.
+- **Multi-PDF Upload** – Upload and process multiple PDF documents at once  
+- **Text Extraction & Chunking** – Extracts and segments document text for efficient retrieval  
+- **Vector-Based Retrieval** – Uses embeddings and similarity search to fetch relevant context  
+- **Conversational AI** – Powered by Google Gemini for natural language interaction  
+- **Interactive Chat Interface** – Simple and intuitive Streamlit-based UI  
 
 ## Getting Started
 
@@ -44,6 +49,18 @@ docs for more detail on building and pushing.
 ### References
 
 - [Docker's Python guide](https://docs.docker.com/language/python/)
+
+## Project Structure
+
+Docs_Talk/
+│
+├── app.py                 # Main Streamlit application
+├── requirements.txt       # Python dependencies
+├── .env.example           # Environment variable template
+├── README.md              # Project documentation
+├── Dockerfile             # Docker configuration
+├── compose.yaml           # Docker Compose setup
+
 
 ## Local Development
 
@@ -97,6 +114,14 @@ Follow these instructions to set up and run this project on your local machine.
 - Streamlit
 - google.generativeai
 - dotenv
+
+## Planned Improvements
+
+- [ ] Retrieval latency benchmarking
+- [ ] Chunking strategy optimization
+- [ ] Source-grounded answer enforcement
+- [ ]Evaluation metrics for response relevance
+
 
 ## Acknowledgments
 
