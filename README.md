@@ -120,7 +120,7 @@ Follow these instructions to set up and run this project on your local machine.
 - [ ] Retrieval latency benchmarking
 - [ ] Chunking strategy optimization
 - [ ] Source-grounded answer enforcement
-- [ ]Evaluation metrics for response relevance
+- [ ] Evaluation metrics for response relevance
 
 
 ## Acknowledgments
