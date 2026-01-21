@@ -1,6 +1,6 @@
-# Gemini PDF Chatbot
+# Docs_Talk
 
-Gemini PDF Chatbot is a Streamlit-based application that allows users to chat with a conversational AI model trained on PDF documents. The chatbot extracts information from uploaded PDF files and answers user questions based on the provided context.
+Docs_Talk is a Streamlit-based application that allows users to chat with a conversational AI model trained on PDF documents. The chatbot extracts information from uploaded PDF files and answers user questions based on the provided context.
 <https://gmultichat.streamlit.app/>
 
 <https://github.com/kaifcoder/gemini_multipdf_chat/assets/57701861/f6a841af-a92d-4e54-a4fd-4a52117e17f6>
@@ -54,7 +54,7 @@ Follow these instructions to set up and run this project on your local machine.
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your-username/gemini-pdf-chatbot.git
+   git clone https://github.com/your-username/Docs_Talk.git
    ```
 
 2. **Install Dependencies:**

@@ -119,7 +119,7 @@ def user_input(user_question):
 
 def main():
     st.set_page_config(
-        page_title="Gemini PDF Chatbot",
+        page_title="Docs_Talk",
         page_icon="🤖"
     )
 
@@ -139,7 +139,7 @@ def main():
                 st.error("Please upload at least one PDF file before processing.")
 
     # Main content area for displaying chat messages
-    st.title("Chat with PDF files using Gemini🤖")
+    st.title("Chat with PDF files using Docs_Talk🤖")
     st.write("Welcome to the chat!")
     st.sidebar.button('Clear Chat History', on_click=clear_chat_history)
 
